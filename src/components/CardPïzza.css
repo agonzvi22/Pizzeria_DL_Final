@@ -1,0 +1,22 @@
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }

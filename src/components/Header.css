@@ -1,0 +1,33 @@
+.hero {
+    position: relative; /* Para posicionar correctamente el overlay */
+    background-image: url('../Header.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 300px;
+    width: 100%;
+  }
+  
+  .hero::before {
+    content: ''; /* Pseudo-elemento vacío para la máscara */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad */
+    z-index: 1; /* Se coloca sobre el fondo */
+  }
+  
+  .content {
+    position: relative; /* Asegura que el contenido esté sobre la máscara */
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+  }

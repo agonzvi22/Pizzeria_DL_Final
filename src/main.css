@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.active {
+  color: rgb(255, 204, 0);
+}
